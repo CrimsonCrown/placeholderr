@@ -1,0 +1,12 @@
+[package]
+name = "lit"
+version = "0.1.0"
+authors = ["CrimsonCrown <arthurscouto@outlook.com>"]
+
+[dependencies]
+image = "*"
+rayon = "1.0.1"
+num-complex = "0.2"
+rand = "0.5.2"
+[profile.dev]
+opt-level = 3
