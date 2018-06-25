@@ -1,0 +1,10 @@
+[package]
+name = "testseq"
+version = "0.1.0"
+authors = ["CrimsonCrown <arthurscouto@outlook.com>"]
+
+[dependencies]
+image = "*"
+
+[profile.dev]
+opt-level = 3
